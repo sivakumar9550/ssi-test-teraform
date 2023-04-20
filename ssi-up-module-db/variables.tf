@@ -15,12 +15,10 @@ variable "key_name" {
 
 variable "db_want" {
     type = bool
-    default = true
 }
 
 variable "db_count" {
     type = number
-    default = 1
   
 }
 

@@ -15,12 +15,10 @@ variable "key_name" {
 
 variable "httpd_want" {
     type = bool
-    default = true
 }
 
 variable "httpd_count" {
     type = number
-    default = 1
   
 }
 

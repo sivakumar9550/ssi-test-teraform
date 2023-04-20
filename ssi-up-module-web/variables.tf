@@ -15,12 +15,10 @@ variable "key_name" {
 
 variable "web_want" {
     type = bool
-    default = true
 }
 
 variable "web_count" {
     type = number
-    default = 1
   
 }
 

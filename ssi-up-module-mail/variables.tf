@@ -15,12 +15,10 @@ variable "key_name" {
 
 variable "mail_want" {
     type = bool
-    default = true
 }
 
 variable "mail_count" {
     type = number
-    default = 1
   
 }
 

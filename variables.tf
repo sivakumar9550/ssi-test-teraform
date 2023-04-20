@@ -43,3 +43,38 @@ variable "my_key_name" {
   type = string
 }
 
+variable "db_want" {
+  type    = bool
+}
+
+variable "db_count" {
+  type    = number
+
+}
+
+variable "httpd_want" {
+  type    = bool
+}
+
+variable "httpd_count" {
+  type    = number
+
+}
+
+variable "mail_want" {
+  type    = bool
+}
+
+variable "mail_count" {
+  type    = number
+
+}
+
+variable "web_want" {
+  type    = bool
+}
+
+variable "web_count" {
+  type    = number
+
+}

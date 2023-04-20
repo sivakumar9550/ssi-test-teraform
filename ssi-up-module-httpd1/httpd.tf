@@ -9,7 +9,7 @@ resource "aws_instance" "httpd_server" {
     user     = "ubuntu"
     private_key = file(var.local_aws_private_key_path)
     host     = self.public_ip
-  }
+  } 
 
   tags = {
     Name = "httpd_server-${count.index}"
